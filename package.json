@@ -1,0 +1,26 @@
+{
+  "name": "electronic-signature-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "google-auth-library": "^8.7.0",
+    "googleapis": "^105.0.0",
+    "lowdb": "^6.0.0",
+    "node-fetch": "^2.6.9",
+    "node-signpdf": "^1.5.1",
+    "nunjucks": "^3.2.4",
+    "gdoctableapp": "^1.1.0"
+  }
+}
