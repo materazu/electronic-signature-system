@@ -66,6 +66,9 @@ export default class DocumentGeneratorService {
 
   /**
    * Handle the signature process
+   *
+   * @param {*} signature data base64
+   * @param {*} document object
    */
   async handleSign(signature, document) {
     const documentId = document.documentId;
